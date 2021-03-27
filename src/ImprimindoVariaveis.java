@@ -7,13 +7,14 @@ public class ImprimindoVariaveis {
 		
 		String nome = "Eugênio";		
 		int idade = 2021 - 1984;
-		String[] hobbies = {"comer, beber, dormir"};
+		String[] hobbies = {"comer", "beber", "dormir"};
 
-		System.out.println("Nome: " + nome + "\nIdade: " + idade);
+		System.out.println("Nome: " + nome + "\nIdade: " + idade + "anos.");
 		
 		for (int i = 0; i < hobbies.length; i++) {
 			
 			System.out.println("Hobbies: " + hobbies[i]);
+			
 		}
 		
 	}
