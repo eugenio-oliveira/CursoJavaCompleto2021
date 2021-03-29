@@ -5,17 +5,16 @@ public class ImprimindoVariaveis {
 		
 	public static void main(String[] args) {
 		
-		String nome = "Eugênio";		
-		int idade = 2021 - 1984;
-		String[] hobbies = {"comer", "beber", "dormir"};
-
-		System.out.println("Nome: " + nome + "\nIdade: " + idade + "anos.");
-		
-		for (int i = 0; i < hobbies.length; i++) {
-			
-			System.out.println("Hobbies: " + hobbies[i]);
-			
-		}
+		int idade = 10;
+		float salarioFloat = 20000;
+		double salarioDouble = 20000;
+		boolean verdadeiro = true;
+		boolean falso = false;
+		byte idadeByte = 12;
+		short idadeShort = 12313;
+		long numeroGrande = 1000L;
+		char caractere =  'A';
+		String nome = "Eugênio";
 		
 	}
 
